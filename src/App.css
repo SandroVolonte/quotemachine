@@ -1,0 +1,47 @@
+
+
+.quoteCard{
+  background-color: #282c34;
+  width: 50vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 1vmin);
+  color: white;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  flex-direction: column;
+
+}
+.changingColor{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floatright{
+  float: right;
+}
+.floatleft{
+  float: left;
+}
+.marginright{
+  margin-left: auto;
+}
+.buttonwrapper{
+  display: inline-block;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.color{
+  transition: color 1000ms ease-in;
+}
+
+.background{
+  transition: background-color 1000ms ease-in;
+}
